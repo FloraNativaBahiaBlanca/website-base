@@ -1,0 +1,56 @@
+title: "Flora Nativa Bahia Blanca"
+description: "Proyecto de divulgación de las plantas autóctonas de Bahía Blanca y el sudoeste bonaerense, ¡visitanos y unite a la comunidad!"
+url: "https://floranativabb.com.ar"
+email: floranativabb@gmail.com
+timezone: UTC
+baseurl: ""
+permalink: "/:title/"
+logo: 'assets/images/logo.webp'
+favicon: 'assets/images/favicon.ico'
+author: FNBB
+paginate: 10
+disqus: 'floranativabb'
+locale: es_ar
+lang: es_ar
+feed_items: 10
+feed_update_period: daily
+feed_update_frequency: 1
+markdown: kramdown
+kramdown:
+  syntax_highlighter_opts:
+    disable: true
+sass:
+  sass_dir: _sass
+  style: :compressed
+ganalytics: UA-113961478-1
+jekyll-archives:
+  enabled: [categories, tags]
+  layout: archive
+  permalinks:
+    tag: '/tag/:name/'
+    category: '/category/:name/'
+
+# Authors
+authors:
+  fnbb:
+    name: Flora Nativa Bahia Blanca
+    display_name: FNBB
+    avatar: 'assets/images/sal.png'
+    email: floranativabb@gmail.com
+    instagram: https://www.instagram.com/floranativabb
+      #description: "Técnico Univ. en Parques y Jardines y fundador de Flora Nativa Bahia Blanca"
+
+# Social
+social:
+  instagram: https://www.instagram.com/floranativabb/
+  facebook: https://www.facebook.com/floranativabb/
+  inaturalist: https://www.argentinat.org/projects/flora-nativa-bahia-blanca
+
+# Plugins
+plugins:
+- jekyll-paginate
+- jekyll-sitemap
+- jekyll-feed
+- jekyll-seo-tag
+- jekyll-archives
+- jekyll-glossary_tooltip

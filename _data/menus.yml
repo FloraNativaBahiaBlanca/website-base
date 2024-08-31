@@ -1,0 +1,39 @@
+# Top Menu
+topmenu:
+
+- title: Inicio
+  url: ""
+
+- title: Nosotros
+  url: "nosotros/"
+
+- title: Contacto
+  url: "contacto/"
+
+#- title: Tienda
+#  url: https://floranativabb.mitiendanube.com
+#  external: true
+
+- title: Bibliografia
+  url: "bibliografia/"
+
+- title: ¡Apóyanos!
+  url: https://cafecito.app/floranativabb
+  class: "ml-2 btn btn-dark text-white px-3"
+  external: true
+
+# Footer Menu
+footermenu:
+
+- title: Inicio
+  url: ""
+
+- title: Política de privacidad
+  url: "politica-privacidad/"
+
+- title: Contacto
+  url: "contacto/"
+
+- title: ¡Apóyanos!
+  url: https://cafecito.app/floranativabb
+  external: true
