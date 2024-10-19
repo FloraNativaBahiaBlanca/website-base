@@ -21,6 +21,5 @@ group :jekyll_plugins do
     gem 'tzinfo-data'
     gem 'tzinfo'
     gem 'jekyll-glossary_tooltip'
-    gem 'jekyll-minifier'
 end
 gem "webrick", "~> 1.8"
