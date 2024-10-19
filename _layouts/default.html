@@ -6,6 +6,10 @@
 <link rel="icon" href="{{ site.baseurl }}/{{site.favicon}}">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 
+{% if page.preload_hero %}
+  <link rel="preload" href="{{ site.baseurl }}/assets/images/intro.svg" as="image">
+{% endif %}
+
 <title>{{ page.title }} | {{site.title}}</title>
 
 {% seo %}
