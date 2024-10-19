@@ -54,3 +54,4 @@ plugins:
 - jekyll-seo-tag
 - jekyll-archives
 - jekyll-glossary_tooltip
+- jekyll-minifier
