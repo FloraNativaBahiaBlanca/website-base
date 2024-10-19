@@ -92,6 +92,8 @@
   definition: "el órgano profundamente dividido en dos partes en el ápice."
 - term: bilabiada
   definition: "corola o cáliz que presenta dispuestos los pétalos y sépalos en dos grupos, como los labios."
+- term: bilocular
+  definition: "dividido en dos cavidades."
 - term: bipinnada
   definition: "hoja doblemente pinnada, es decir, dividida en partes que a su vez se subdividen en otras partes (foliolos)."
 - term: bractea
@@ -268,6 +270,8 @@
   definition: "con forma de espiral, como algunas inflorescencias."
 - term: escotado
   definition: "con una hendidura en el ápice; sinónimo de emarginado."
+- term: escuamiforme
+  definition: "en forma de escamas."
 - term: espadice
   definition: "espiga, generalmente con flores unisexuales, con el eje engrosado y carnoso."
 - term: espata
@@ -358,6 +362,8 @@
   definition: "que posee hojas; hojoso."
 - term: foveado
   definition: "con fosas o concavidades."
+- term: fractiflexo
+  definition: "que presenta una forma quebrada o zigzagueante."
 - term: fruto
   definition: "órgano especializado en la dispersión de las semillas formado a partir de las paredes del gineceo y en el que también puede participar el receptáculo u otras estructuras florales; más ráramente procede de una inflorescencias, constituyendo entonces una infrutecencia."
 - term: funiculo
