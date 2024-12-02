@@ -2,6 +2,8 @@
   definition: "superficie de un órgano situada del lado contrario al eje que la soporta. Cara inferior de la hoja."
 - term: abrazadora
   definition: "referido a las hojas, cuando éstas rodean por su base al tallo; sinónimo de amplexicaule."
+- term: acaule
+  definition: "sin tallo; de tallo tan corto que parece inexistente."
 - term: acicular
   definition: "con forma de aguja."
 - term: acodada
@@ -422,6 +424,8 @@
   definition: "órgano laminar especializado en realizar la fotosíntesis, que normalmente consta de limbo o lámina y peciolo; el peciolo puede ensancharse en su base, formando una vaina, y presentar estípulas."
 - term: imparipinnada
   definition: "hoja compuesta y pinnada cuyo raquis termina en un foliolo."
+- term: inciso
+  definition: "dividido por escotaduras profundas."
 - term: incluso
   definition: "que no sobresale"
 - term: indehiscente
@@ -524,6 +528,8 @@
   definition: "en el tallo puntos donde se insertan las hojas o las ramas."
 - term: nuez
   definition: "fruto seco, monospermo e indehiscente, normalmente con el pericarpio endurecido."
+- term: obcordado
+  definition: "con forma de corazón invertido."
 - term: oblanceolado
   definition: "lanceolado pero con la parte más ancha en el tercio superior."
 - term: oblongo
