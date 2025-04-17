@@ -30,6 +30,8 @@
   definition: "tejido nutricio que acompaña al embrión en la semilla"
 - term: alterna
   definition: "referido a las hojas, cuando éstas se insertan en el tallo a distintos niveles, una en cada nudo."
+- term: alveolado
+  definition: "superficie con hoyitos o alvéolos que asemejan un panal."
 - term: amplexicaule
   definition: "referido a las hojas, cuando éstas abrazan por su base al tallo."
 - term: ancipitado
@@ -222,6 +224,8 @@
   definition: "que está formado por una pareja, en el caso de los frutos, de mericarpos."
 - term: digitada
   definition: "hoja compuesta con 4 o más foliolos todos ellos insertos en el extremo del peciolo."
+- term: dimorfa
+  definition: "de dos formas."
 - term: dioecia
   definition: "que poseen órganos de reproducción unisexuales separados en plantas diferentes."
 - term: dioica
@@ -264,6 +268,8 @@
   definition: "que tiene la superficie áspera."
 - term: escabrosa
   definition: "áspero al tacto, cubierto de asperezas."
+- term: escabrosulo
+  definition: "con asperezas de tricomas cortos y rígidos que se aprecian al tacto."
 - term: escapo
   definition: "tallo sin hojas que porta en su extremo una flor o inflorescencia."
 - term: escarioso
@@ -444,6 +450,8 @@
   definition: "planta introducida en el territorio por el hombre y que se asilvestra."
 - term: involucro
   definition: "conjunto de brácteas que rodean a las flores en una inflorescencia."
+- term: isomorfa
+  definition: "de la misma forma, por ejemplo cuando todas las espiguillas de una misma inflorescencia son iguales."
 - term: lacinia
   definition: "incisión estrecha y profunda"
 - term: laciniada
