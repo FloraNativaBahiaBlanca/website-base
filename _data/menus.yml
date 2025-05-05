@@ -18,7 +18,7 @@ topmenu:
   url: "bibliografia/"
 
 - title: ¡Apóyanos!
-  url: https://cafecito.app/floranativabb
+  url: https://floranativabb.com.ar/aportes
   class: "ml-2 btn btn-dark text-white px-3"
   external: true
 
@@ -35,5 +35,5 @@ footermenu:
   url: "contacto/"
 
 - title: ¡Apóyanos!
-  url: https://cafecito.app/floranativabb
+  url: https://floranativabb.com.ar/aportes/
   external: true
