@@ -1,0 +1,37 @@
+name: Notify dependent repositories
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Trigger update in FloraNativaBahiaBlanca.github.io
+        run: |
+          curl -X POST \
+            -H "Authorization: token ${{ secrets.DISPATCH_TOKEN }}" \
+            -H "Accept: application/vnd.github+json" \
+            https://api.github.com/repos/FloraNativaBahiaBlanca/FloraNativaBahiaBlanca.github.io/dispatches \
+            -d '{
+              "event_type": "update-base",
+              "client_payload": {
+                "base_sha": "${{ github.sha }}"
+              }
+            }'
+
+      - name: Trigger update in fauna-nativa
+        run: |
+          curl -X POST \
+            -H "Authorization: token ${{ secrets.DISPATCH_TOKEN }}" \
+            -H "Accept: application/vnd.github+json" \
+            https://api.github.com/repos/FloraNativaBahiaBlanca/fauna-nativa/dispatches \
+            -d '{
+              "event_type": "update-base",
+              "client_payload": {
+                "base_sha": "${{ github.sha }}"
+              }
+            }'
