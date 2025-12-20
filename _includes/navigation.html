@@ -23,9 +23,6 @@
                    rel="noopener noreferrer"
                  {% endif %}>
                 {{ child.title }}
-                {% if child.external %}
-                  <i class="fa-solid fa-arrow-up-right-from-square ms-1 small"></i>
-                {% endif %}
               </a>
             </li>
           {% endfor %}
@@ -42,9 +39,6 @@
              rel="noopener noreferrer"
            {% endif %}>
           {{ item.title }}
-          {% if item.external %}
-            <i class="fa-solid fa-arrow-up-right-from-square ms-1 small"></i>
-          {% endif %}
         </a>
       </li>
     {% endif %}
