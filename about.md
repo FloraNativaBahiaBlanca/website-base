@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Sobre nosotros
-permalink: /nosotros/
+permalink: /conocenos/nosotros/
 ---
 
 Bienvenidos a Flora Nativa Bahía Blanca, un proyecto de divulgación y concientización sobre las plantas nativas de la región. En este sitio web podrás conocer más sobre las especies de plantas que habitan en la región de Bahía Blanca y sus alrededores, descubrir su importancia para el ecosistema local y aprender cómo cuidarlas y preservarlas.

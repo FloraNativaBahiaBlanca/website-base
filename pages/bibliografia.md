@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Bibliografía
-permalink: /bibliografia/
+permalink: /recursos/bibliografia/
 ---
 
 En esta sección hemos reunido libros y artículos sobre la flora autóctona de Bahía Blanca y la región que consideramos pueden ser de interés. Nuestro objetivo es recopilar toda la información existente sobre el tema en un solo lugar. Si deseas agregar contenido a esta lista, puedes ponerte en contacto con nosotros a través de nuestro correo electrónico floranativabb@gmail.com, o bien en la sección 'Contacto' que se encuentra en esta plataforma.

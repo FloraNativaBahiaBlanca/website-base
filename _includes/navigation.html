@@ -1,7 +1,8 @@
 <ul class="navbar-nav ml-auto font-weight-bold d-flex align-items-center">
   {% for item in site.data.menus.topmenu %}
-    
+
     {% if item.children %}
+      <!-- Item con dropdown -->
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle px-3"
            href="#"
@@ -12,12 +13,19 @@
           {{ item.title }}
         </a>
 
-        <ul class="dropdown-menu">
+        <ul class="dropdown-menu" aria-labelledby="dropdown-{{ forloop.index }}">
           {% for child in item.children %}
             <li>
               <a class="dropdown-item"
-                 href="{{ site.baseurl }}/{{ child.url }}">
+                 href="{% unless child.external %}{{ site.baseurl }}/{% endunless %}{{ child.url }}"
+                 {% if child.external %}
+                   target="_blank"
+                   rel="noopener noreferrer"
+                 {% endif %}>
                 {{ child.title }}
+                {% if child.external %}
+                  <i class="fa-solid fa-arrow-up-right-from-square ms-1 small"></i>
+                {% endif %}
               </a>
             </li>
           {% endfor %}
@@ -25,10 +33,18 @@
       </li>
 
     {% else %}
+      <!-- Item normal -->
       <li class="nav-item">
         <a class="nav-link px-3 {% if item.class %}{{ item.class }}{% endif %}"
-           href="{% unless item.external %}{{ site.baseurl }}/{% endunless %}{{ item.url }}">
+           href="{% unless item.external %}{{ site.baseurl }}/{% endunless %}{{ item.url }}"
+           {% if item.external %}
+             target="_blank"
+             rel="noopener noreferrer"
+           {% endif %}>
           {{ item.title }}
+          {% if item.external %}
+            <i class="fa-solid fa-arrow-up-right-from-square ms-1 small"></i>
+          {% endif %}
         </a>
       </li>
     {% endif %}
