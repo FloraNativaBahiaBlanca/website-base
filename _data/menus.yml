@@ -4,18 +4,24 @@ topmenu:
 - title: Inicio
   url: ""
 
-- title: Nosotros
-  url: "nosotros/"
-
-- title: Contacto
-  url: "contacto/"
+- title: Conócenos
+  children:
+  - title: Nosotros
+    url: "conocenos/nosotros/"
+  - title: Contacto
+    url: "conocenos/contacto/"
 
 #- title: Tienda
 #  url: https://floranativabb.mitiendanube.com
 #  external: true
 
-- title: Bibliografia
-  url: "bibliografia/"
+- title: Recursos
+  children:
+  - title: Bibliografia
+    url: "recursos/bibliografia/"
+  - title: Mapa interactivo
+    url: https://argentina.floranativabb.com.ar
+    external: true
 
 - title: ¡Apóyanos!
   url: https://floranativabb.com.ar/aportes
