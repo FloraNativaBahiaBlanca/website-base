@@ -17,11 +17,14 @@ topmenu:
 
 - title: Recursos
   children:
-  - title: Bibliografia
-    url: "recursos/bibliografia/"
+  - title: Blog
+    url: https://blog.floranativabb.com.ar
+    external: true
   - title: Mapa interactivo
     url: https://argentina.floranativabb.com.ar
     external: true
+  - title: Bibliografia
+    url: "recursos/bibliografia/"
 
 - title: ¡Apóyanos!
   url: https://floranativabb.com.ar/aportes
