@@ -22,7 +22,8 @@ kramdown:
 sass:
   sass_dir: _sass
   style: :compressed
-ganalytics: G-0VC8ZZ75HV
+## ganalytics no deberia ser necesario si configuramos Google Tag Manager
+# ganalytics: G-0VC8ZZ75HV
 jekyll-archives:
   enabled: [categories, tags]
   layout: archive
