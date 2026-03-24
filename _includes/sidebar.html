@@ -2,42 +2,42 @@
     <div class="sidebar-section">
         <!-- Lunr Search -->
         <h5><span>Buscar</span></h5>
-	{% include search-lunr.html %}
+        {% include search-lunr.html %}
     </div>
     <div class="sidebar-section">
-	<!-- Site Tags -->
+        <!-- Site Tags -->
         <h5><span>Tags</span></h5>
-	<div class="after-post-tags">
-	    <ul class="tags">
-		{% assign allTags = site.tags | keys | sort %}
-		{% for tag in allTags %}
-		{% assign tagName = tag | first %}
-		    <li>
-			<a href="{{ site.baseurl }}/tag/{{ tagName | slugify }}">{{ tagName }}</a>
-		    </li>
-		{% endfor %}
-	    </ul>
-	</div>
-	<!-- End Site Tags -->
+        <div class="after-post-tags">
+            <ul class="tags">
+                {% assign allTags = site.tags | keys | sort %}
+                {% for tag in allTags %}
+                {% assign tagName = tag | first %}
+                <li>
+                    <a href="{{ site.baseurl }}/tag/{{ tagName | slugify }}">{{ tagName }}</a>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+        <!-- End Site Tags -->
     </div>
     <div class="sidebar-section">
         <h5><span>Red de Sembradores</span></h5>
         <a href=https://chat.whatsapp.com/ILXwf3nVWFD5dMwtT7nh9Y>
-           <img src="{{site.baseurl}}/assets/images/red.webp" alt="Red de Sembradores">
+            <img src="{{site.baseurl}}/assets/images/red.webp" alt="Red de Sembradores">
         </a>
     </div>
     <div class="sidebar-section">
         <h5><span>Proyectos amigos</span></h5>
-        <a href=https://planear.uns.edu.ar/>
-           <img style="margin: 30px 0;" src="{{site.baseurl}}/assets/images/planear.webp" alt="Planear">
+        <a id="link-planear" href=https://planear.uns.edu.ar />
+        <img style="margin: 30px 0;" src="{{site.baseurl}}/assets/images/planear.webp" alt="Planear">
         </a>
         <h5><span></span></h5>
-        <a href=https://trafkintu.com.ar/>
-           <img src="{{site.baseurl}}/assets/images/ad.webp" alt="Trafkintu">
+        <a id="link-trafkintu" href=https://trafkintu.com.ar />
+        <img src="{{site.baseurl}}/assets/images/ad.webp" alt="Trafkintu">
         </a>
         <h5><span></span></h5>
-        <a href=https://tellus.org.ar/>
-           <img src="{{site.baseurl}}/assets/images/ad2.webp" alt="Tellus">
+        <a id="link-tellus" href=https://tellus.org.ar />
+        <img src="{{site.baseurl}}/assets/images/ad2.webp" alt="Tellus">
         </a>
     </div>
     <!-- Hide Newsletter section
