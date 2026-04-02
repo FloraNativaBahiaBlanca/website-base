@@ -520,6 +520,8 @@
   definition: "con indumento muy denso y corto, casi imperceptibles al tacto."
 - term: monadelfos
   definition: "estambres que están soldados por sus filamentos formando un solo grupo."
+- term: moniliforme
+  definition: "segmentos más o menos redondeados y superpuestos, dispuestos a modo de cuentas de un collar."
 - term: monoica
   definition: "planta que en un mismo pie tiene flores unisexuales masculinas y femeninas."
 - term: monospermo
@@ -624,6 +626,8 @@
   definition: "piezas de la flor que en conjunto forman la corola; normalmente suelen presentar colores vistosos para atraer a los insectos y permitir la polinización; junto a los sépalos del cáliz forman el perianto."
 - term: pico
   definition: "prolongación estrecha en el fruto de las compuestas, normalmente provista de vilano en su extremo."
+- term: pinna
+  definition: "cada folíolo de una hoja pinnada."
 - term: pinnada
   definition: "nerviación de la hoja en la que hay un nervio medio principal y a ambos lados se disponen varios nervios laterales secundarios."
 - term: pinnaticompuesta
@@ -742,6 +746,8 @@
   definition: "referido a las hojas, aquellas que no presentan el limbo dividido en varios foliolos; referido a los pelos, aquéllos no ramificados."
 - term: sinflorescencia
   definition: "aglomeración de capítulos individuales en un receptáculo secundario y rodeado por un involucro secundario."
+- term: subagudo
+  definition: "que tiene forma atenuada pero no puntiaguda; moderadamente agudo."
 - term: subcartacea
   definition: "de consistencia similar al papel o el pergamino"
 - term: subcordado
@@ -828,6 +834,8 @@
   definition: "corola con los pétalos soldados casi en toda su longitud y ensanchada en su parte media de modo que asemeja la tulipa de un quinqué."
 - term: vaina
   definition: "ensanchamiento en la base del peciolo; en algunas monocotiledóneas, como las gramíneas, parte basal de las hojas, que envuelve al tallo."
+- term: vastago
+  definition: "eje aéreo de la planta, conformado por el tallo y las hojas."
 - term: velutinoso
   definition: "con indumento denso y corto."
 - term: ventricoso
@@ -848,6 +856,10 @@
   definition: "plantas que prosperan en sitios secos."
 - term: yema
   definition: "fase inicial de nuevos órganos de una planta, como ramas, hojas y flores."
+- term: yugado
+  definition: "que se dispone de a pares sobre un eje."
+- term: yugo
+  definition: "cada par de segmentos de una hoja compuesta."
 - term: zarcillo
   definition: "estructura filiforme que permite el soporte de la planta al enrollarse sobre diversos objetos, como otras plantas próximas; pueden formarse en las hojas, ramas, etc."
 - term: zigomorfo
