@@ -164,6 +164,8 @@
   definition: "hoja con el limbo dividido en foliolos."
 - term: concrescente
   definition: "que se suelda con otro órgano."
+- term: congesto
+  definition: "referido a estructuras, generalmente flores, inflorescencias u hojas, que se encuentran muy agrupadas, apretadas o apiñadas entre sí, dejando poco o ningún espacio visible entre ellas."
 - term: connado
   definition: "muy próximos entre sí, aunque sin llegar a soldarse."
 - term: cordada
@@ -238,6 +240,8 @@
   definition: "porción alejada u opuesta al punto de origen o inserción."
 - term: distica
   definition: "se aplica a cualquier órgano dispuesto en dos filas, como las hojas de las gramíneas."
+- term: divaricado
+  definition: "dícese de las ramas, ramitas o ejes secundarios que se separan del eje principal formando un ángulo muy abierto y amplio, a menudo casi horizontal."
 - term: drupa
   definition: "fruto carnoso indehiscente que envuelve al hueso (endocarpio) donde se contiene la semilla."
 - term: elaioforo
@@ -345,9 +349,9 @@
 - term: farinosa
   definition: "con una cubierta que parece de harina."
 - term: fasciculado
-  definition: "dispuesto o agrupado formando manojos"
+  definition: "dispuesto o agrupado formando manojos."
 - term: fasciculo
-  definition: "haz o manojo"
+  definition: "haz o manojo."
 - term: fenestrado
   definition: "que presenta una superficie porosa o perforada."
 - term: filamento
