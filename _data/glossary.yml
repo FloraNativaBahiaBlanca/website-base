@@ -32,6 +32,8 @@
   definition: "referido a las hojas, cuando éstas se insertan en el tallo a distintos niveles, una en cada nudo."
 - term: alveolado
   definition: "superficie con hoyitos o alvéolos que asemejan un panal."
+- term: amento
+  definition: "inflorescencia racimosa, comúnmente colgante y con forma de espiga, característica de ciertos árboles y arbustos. Se comprone de flores pequeñas, unisexuales y sin pétalos, que se disponen apretadamente a lo largo de un eje."
 - term: amplexicaule
   definition: "referido a las hojas, cuando éstas abrazan por su base al tallo."
 - term: ancipitado
@@ -314,6 +316,8 @@
   definition: "fruto procedente de un gineceo formado por 2 o más carpelos monospermos que se dispersan individualmente en la madurez, como el característico de las umbelíferas."
 - term: estambre
   definition: "órgano reproductor masculino de las plantas, que consta de un filamento y la antera, donde se encuentran los sacos polínicos que contienen el polen; el conjunto de estambres forman el androceo."
+- term: estaminado
+  definition: "dícese de la flor o planta unisexual masculina que posee estambres (órganos productores de polen) pero carece de pistilos."
 - term: estaminodio
   definition: "estambre estéril, generalmente rudimentario."
 - term: estigma
